@@ -1,7 +1,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
 }
-img {
+img self-portrait {
   max-width: 400px;
 }
 .work-title {
@@ -16,4 +16,28 @@ img {
 }
 .home-section {
   padding-top: 60px;
+}
+
+.img-fluid {
+  width: 60%;
+  padding-top: 40px;
+  margin-left: 50px;
+}
+.projects-headline {
+  font-size: 48px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .work-title {
+    margin-bottom: 28px;
+    margin-left: 50px;
+  }
+
+  .home-section {
+    text-align: left;
+  }
+  .creator {
+    font-size: 38px;
+  }
 }
