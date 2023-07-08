@@ -1,0 +1,19 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+img {
+  max-width: 400px;
+}
+.work-title {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: -28px;
+  margin-left: 50px;
+}
+.creator {
+  font-size: 68px;
+  font-weight: 900;
+}
+.home-section {
+  padding-top: 60px;
+}
