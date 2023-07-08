@@ -26,6 +26,31 @@ img self-portrait {
 .projects-headline {
   text-align: center;
 }
+footer {
+  margin: 150px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: rgb(234, 9, 28);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: rgb(28, 28, 154);
+  background: rgb(142, 211, 218);
+  padding: 7px 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: rgb(142, 211, 218);
+  background: rgb(28, 28, 154);
+}
 
 @media (max-width: 600px) {
   .work-title {
