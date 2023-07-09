@@ -1,9 +1,9 @@
 body {
   font-family: "Courier New", Courier, monospace;
+  background: whitesmoke;
+  color: rgb(45, 38, 38);
 }
-img self-portrait {
-  max-width: 400px;
-}
+
 .work-title {
   font-size: 20px;
   font-family: "Courier New", Courier, monospace;
@@ -17,6 +17,9 @@ img self-portrait {
 .home-section {
   padding-top: 60px;
 }
+.active {
+  font-weight: 600;
+}
 
 .img-fluid {
   width: 60%;
@@ -25,9 +28,10 @@ img self-portrait {
 }
 .projects-headline {
   text-align: center;
+  font-size: 48px;
 }
 footer {
-  margin: 150px 0;
+  margin: 100px 0;
 }
 footer .email-link {
   text-decoration: none;
@@ -54,8 +58,8 @@ footer .social-links a:hover {
 
 @media (max-width: 600px) {
   .work-title {
-    margin-bottom: 28px;
-    margin-left: 50px;
+    margin-bottom: 8px;
+    margin-left: 5px;
   }
 
   .home-section {
@@ -63,5 +67,6 @@ footer .social-links a:hover {
   }
   .creator {
     font-size: 38px;
+    text-align: justify;
   }
 }
